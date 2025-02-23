@@ -1,0 +1,7 @@
+research_blog:
+  description: >
+    Research the assigned topic.
+    Ensure the research is engaging and material is relevant to the topic. The research content should be valid and not be a duplicate of the internet.
+  expected_output: >
+    A beautifully crafted research material about the assigned topic.
+  agent: blog_researcher

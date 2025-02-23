@@ -1,0 +1,7 @@
+write_blog:
+  description: >
+    Write a blog post about the assigned topic: {topic}, of {sentence_count} sentences.
+    Ensure the blog post is engaging and adheres to the specified sentence count of {sentence_count}.
+  expected_output: >
+    A beautifully crafted blog post about the assigned topic, with exactly {sentence_count} sentences.
+  agent: blog_writer
