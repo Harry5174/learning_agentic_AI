@@ -1,0 +1,20 @@
+[project]
+name = "proj_isb"
+version = "0.1.0"
+description = "proj_isb using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.98.0,<1.0.0",
+]
+
+[project.scripts]
+kickoff = "proj_isb.main:kickoff"
+plot = "proj_isb.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"
